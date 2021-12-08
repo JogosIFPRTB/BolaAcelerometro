@@ -42,7 +42,11 @@ public class MovimentoBola : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButton("Fire1"))
-            Instantiate(objeto, transform);
+        if (Input.GetButton("Fire1")) {
+            GameObject clone = Instantiate(objeto, transform);
+
+            Destroy(clone,1);
+        }
+            
     }
 }
