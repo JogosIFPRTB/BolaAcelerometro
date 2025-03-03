@@ -51,5 +51,3 @@ private void FixedUpdate()
 - Criar interface gráfica para opções de configuração.
 
 ---
-
-Desenvolvido com ❤️ no Unity! 🎮
